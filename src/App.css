@@ -30,3 +30,161 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(10, 25, 47);
+  color: rgb(136, 146, 176);
+  line-height: 1.25;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  font-size: 20px;
+  margin: 0px;
+}
+
+
+
+.backgroundColor{
+  background-color: inherit;
+  background-image:none;
+  border-color: none
+
+}
+
+
+.jdAIsu {
+  color: rgb(100, 255, 218);
+  font-size: 16px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-weight: normal;
+  margin: 0px 0px 20px 3px;
+}
+
+.kTStvU {
+  font-size: 80px;
+  line-height: 1.1;
+  color: rgb(136, 146, 176);
+}
+
+.enxLer {
+  font-size: 80px;
+  line-height: 1.1;
+  color: rgb(230, 241, 255);
+  margin: 0px;
+}
+
+
+#example1 {
+    box-sizing: content-box;
+    width: 60%;
+    padding: inherit;
+
+}
+
+
+a
+{
+   text-decoration:none;
+}
+
+a.underlined
+{
+   text-decoration:none;
+}
+
+a:hover{
+  text-decoration:none;
+}
+
+
+.btn-primary:focus, .btn-primary:hover {
+  color:  rgb(100, 255, 218);
+  background-color: inherit;
+  background-position: 0 -15px;
+  border-color: rgb(100, 255, 218);
+}
+
+
+.btn.focus, .btn:focus, .btn:hover {
+  color:  rgb(100, 255, 218);
+  text-decoration: none;
+  border-color: rgb(100, 255, 218);
+}
+
+.btn-primary {
+  color: rgb(100, 255, 218);;
+  background-color: inherit;
+  border-color: rgb(100, 255, 218);
+}
+.btn-primary {
+  color: rgb(100, 255, 218);;
+  background-image: inherit;
+  background-repeat: repeat-x;
+  border-color:  rgb(100, 255, 218);
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+  color: rgb(100, 255, 218);
+  border-color: rgb(100, 255, 218);
+}
+
+.btn-primary.active, .btn-primary:active {
+  background-color: inherit;
+  color: rgb(100, 255, 218);
+  border-color:  rgb(100, 255, 218);
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: rgb(100, 255, 218);
+}
+
+.introDiv{
+
+margin-top: 80px
+}
+
+.sidebarRight{
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+h1 {
+  font-size: 63px
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color:  rgb(100, 255, 218);
+  background-color: inherit;
+}
+
+
+.nav-pills>li>a:focus, .nav-pills>li>a:hover {
+  text-decoration: none;
+  color: rgb(100, 255, 218);
+  background-color: inherit;
+  border-left: 2px solid rgb(100, 255, 218);
+
+}
+
+.nav-pills>li>a {
+  border-radius: 0;
+  border-left: 2px solid rgb(136, 146, 176);;
+}
+ /* .nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  color: rgb(100, 255, 218);
+  background-color: inherit;
+  border: 1px solid rgb(100, 255, 218);
+}
+ */
