@@ -3,8 +3,15 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  /* animation: App-logo-spin infinite 20s linear; */
+  animation: App-logo-spin infinite 5s linear;
+  /* height: 40vmin; */
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 6em;
+
+
 }
 
 .App-header {
@@ -25,9 +32,12 @@
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
+    animation-fill-mode:red
+
   }
   to {
     transform: rotate(360deg);
+    animation-fill-mode:green
   }
 }
 
@@ -163,7 +173,7 @@ h1,h2,h3,h4,h5,h6{
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
 }
 
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+/* .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   color:  rgb(100, 255, 218);
   background-color: inherit;
 }
@@ -180,11 +190,80 @@ h1,h2,h3,h4,h5,h6{
 .nav-pills>li>a {
   border-radius: 0;
   border-left: 2px solid rgb(136, 146, 176);;
+} */
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color:  rgb(100, 255, 218); 
+  background-color: inherit;
 }
- /* .nav>li>a:focus, .nav>li>a:hover {
+
+
+.nav-tabs>li>a:focus, .nav-tabs>li>a:hover,.nav-tabs>li.active>a:focus {
   text-decoration: none;
   color: rgb(100, 255, 218);
+  opacity: 0.9;
   background-color: inherit;
-  border: 1px solid rgb(100, 255, 218);
+  border: 2px solid rgb(100, 255, 218);
+
 }
- */
+
+.nav-tabs>li>a {
+  color:  inherit;
+  /* border: 2px solid rgb(136, 146, 176);; */
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+
+.portfolioPic {
+   opacity: 0.6;
+  background-color: rgb(100, 255, 218)
+}
+
+img{
+  border-radius: 4px
+}
+
+.portfolioPic:hover {
+  opacity: 1;
+  filter: none;
+  border: 2px solid rgb(100, 255, 218);
+  border-radius: 4px
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: rgb(100, 255, 218);
+  cursor: default;
+  border-radius: 6 px; 
+  background-color: inherit;
+  border-color: rgb(100, 255, 218); 
+}
+
+
+.loader:empty {
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 6em;
+  height: 6em;
+  border: 1.1em solid rgba(0, 0, 0, 0.2);
+  border-left: 1.1em solid rgb(100, 255, 218);
+  border-radius: 50%;
+  animation: load8 1.1s infinite linear;
+  
+
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  
+  }
+  100% {
+    transform: rotate(360deg);
+
+  }
+}

@@ -7,39 +7,43 @@ import LeftSideBar from './LeftSideBar'
 import { Row, Col } from 'react-bootstrap'
 const Body = () => {
     return (
-       
-        <Row className="show-grid">
-            <Col xs={1} md={1}>
-      
-            <LeftSideBar/>
-           
+
+
+        <Row className="show-grid container-fluid" >
+          
+            {/** ---------hidden  left side bar in xs  mode -------*/}
+            <Col xsHidden={true} md={1}>
+            < LeftSideBar />
             </Col>
-            <Col xs={10} md={10}>
-                <Row className="show-grid">
+            
+            {/** ---------hidden  left side bar in xs  mode -------*/}
+            <Col xs={12} md={10} className="container-fluid">
+                <Row  className="show-grid container-fluid">
                     <Intro />
                 </Row>
 
-                <Row className="show-grid">
+                <Row className="show-grid container-fluid">
                     <About />
                 </Row>
 
-                <Row className="show-grid">
+                <Row className="show-grid container-fluid">
                     <Experience />
                 </Row>
-                
-                <Row className="show-grid">
+
+                <Row  className="show-grid container-fluid">
                     <About />
                 </Row>
             </Col>
-          
-            <Col xs={1} md={1}> 
-                    <RightSideBar/>
-                    
-                           
+
+            {/** ---------hidden  right side bar in xs  mode -------*/}
+            <Col xsHidden={true} md={1}>
+            < RightSideBar />
             </Col>
          
+            {/** ---------hidden  reft side bar in xs  mode -------*/}
+
         </Row>
-        
+
     );
 }
 

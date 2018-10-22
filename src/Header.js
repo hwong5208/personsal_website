@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Nav, Navbar, NavItem , Button} from 'react-bootstrap'
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
                     <NavItem eventKey={1} href="#">
                         About
                     </NavItem>
-                    <NavItem eventKey={2} href="#Experience">
+                    <NavItem eventKey={2} href="#">
                         Experience
                     </NavItem>
                     <NavItem eventKey={3} href="#">
