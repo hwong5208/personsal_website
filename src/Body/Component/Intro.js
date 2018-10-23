@@ -13,12 +13,13 @@ const Intro = () => {
             <h1> <span className='enxLer'>Zack Wong.</span></h1>
             <h3 className='kTStvU'>I build things for the web.</h3>
          
-            <p >I’m a newbie Web developer in Vancouver, BC. I am just graduated from <a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer">UBC</a> and major in Computer Science.</p>
-             <p>I am opening for any opportunity no matter front-end, backend or UI/UX design. Please feel to contact me!  =) </p>
+            <p >I’m a newbie Web developer in Vancouver, BC. I just graduated from <a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer">UBC</a> and major in Computer Science.</p>
+             <p>I am opening for any opportunity no matter front-end, backend or UI/UX design.</p>
+             <p> Please feel free to contact me!  =) </p>
        
             
             <div className='introDiv'>
-            <Button  bsStyle="primary" >Get In Touch</Button>              
+            <Button  bsStyle="primary" href="mailto:get_in_touch@zackwong.com" >Get In Touch</Button>              
             </div>
             </Row>
             </Grid>

@@ -4,7 +4,7 @@
 
 .App-logo {
   /* animation: App-logo-spin infinite 20s linear; */
-  animation: App-logo-spin infinite 5s linear;
+  animation: App-logo-spin infinite 2s linear;
   /* height: 40vmin; */
   position: absolute;
   top: calc(50% - 4em);
@@ -32,12 +32,12 @@
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
-    animation-fill-mode:red
+
 
   }
   to {
     transform: rotate(360deg);
-    animation-fill-mode:green
+  
   }
 }
 
@@ -120,7 +120,7 @@ a:hover{
 .btn.focus, .btn:focus, .btn:hover {
   color:  rgb(100, 255, 218);
   text-decoration: none;
-  border-color: rgb(100, 255, 218);
+  border-color: 2;
 }
 
 .btn-primary {
@@ -148,6 +148,11 @@ a:hover{
 
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: rgb(100, 255, 218);
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color:rgb(100, 255, 218);
+  background-color: transparent;
 }
 
 .introDiv{
@@ -267,3 +272,4 @@ img{
 
   }
 }
+

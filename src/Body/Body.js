@@ -1,9 +1,9 @@
 import React from 'react';
-import Intro from './Intro'
-import About from './About'
-import Experience from './Experience'
-import RightSideBar from './RightSideBar'
-import LeftSideBar from './LeftSideBar'
+import Intro from './Component/Intro'
+import About from './Component/About'
+import Experience from './Component/Experience'
+import RightSideBar from './Component/RightSideBar'
+import LeftSideBar from './Component/LeftSideBar'
 import { Row, Col } from 'react-bootstrap'
 const Body = () => {
     return (
